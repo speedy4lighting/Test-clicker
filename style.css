@@ -24,4 +24,13 @@ button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}l
+}l#buy-autoclicker {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#buy-autoclicker:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
