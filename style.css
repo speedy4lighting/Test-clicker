@@ -26,13 +26,13 @@ button {
     border-radius: 5px;
 }
 
-#buy-autoclicker {
+#buy-upgrade1, #buy-autoclicker {
     background-color: #4CAF50;
     color: white;
     border: none;
 }
 
-#buy-autoclicker:disabled {
+#buy-upgrade1:disabled, #buy-autoclicker:disabled {
     background-color: #ccc;
     cursor: not-allowed;
 }
