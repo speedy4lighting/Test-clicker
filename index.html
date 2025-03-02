@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликер с прокачками</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Кликер</h1>
+        <p>Очков: <span id="score">0</span></p>
+        <button id="click-button">Кликни меня!</button>
+
+        <h2>Улучшения</h2>
+        <div id="upgrades">
+            <div class="upgrade">
+                <p>Улучшение клика (+1 за клик)</p>
+                <p>Цена: <span id="upgrade1-cost">10</span></p>
+                <button id="buy-upgrade1">Купить</button>
+            </div>
+            <div class="upgrade">
+                <p>Автокликер (1 клик/сек)</p>
+                <p>Цена: <span id="upgrade2-cost">50</span></p>
+                <button id="buy-upgrade2">Купить</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
