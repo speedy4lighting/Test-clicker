@@ -24,7 +24,9 @@ button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}l#buy-autoclicker {
+}
+
+#buy-autoclicker {
     background-color: #4CAF50;
     color: white;
     border: none;
